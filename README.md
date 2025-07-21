@@ -52,7 +52,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10
 ```
-![Top paying jobs](visuals\Top_Paying_Jobs.png)
+![Top paying jobs](visuals/Top_Paying_Jobs.png)
 
 
 2. **Top Paying Job Skills**  
@@ -92,7 +92,7 @@ JOIN
 ORDER BY
     salary_year_avg DESC
 ```
-![Top_paying_job_skills](visuals\Top_paying_job_skills.png)
+![Top_paying_job_skills](visuals/Top_paying_job_skills.png)
 
 3. **Most Demanded Skills**  
    → Skills that appear most frequently across job postings.
@@ -114,7 +114,7 @@ ORDER BY
     demand_count DESC
 LIMIT 5
 ```
-![Top_Demand_skills](visuals\Top_Demand_skills.png)
+![Top_Demand_skills](visuals/Top_Demand_skills.png)
 
 4. **Skills with Highest Average Salary**  
    → Analyzes average salary associated with each skill.
@@ -137,7 +137,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 25
 ```
-![Skills_with_Highest_Average_Salary](visuals\Skills_with_Highest_Average_Salary.png)
+![Skills_with_Highest_Average_Salary](visuals/Skills_with_Highest_Average_Salary.png)
 
 5. **Most Optimal Skills**  
    → Skills that have both high demand and competitive salary potential.
@@ -222,7 +222,7 @@ ORDER by
     demand_count DESC
 LIMIT 25;
 ```
-![Most_Optimal_Skills](visuals\Most_Optimal_Skills.png)
+![Most_Optimal_Skills](visuals/Most_Optimal_Skills.png)
 
 You can view and run all these SQL files from the [`project_sql`](./project_sql) folder.
 
