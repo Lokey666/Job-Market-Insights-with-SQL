@@ -96,7 +96,7 @@ ORDER BY
 
 3. **Most Demanded Skills**  
    → Skills that appear most frequently across job postings.
-```
+```SQL
 SELECT 
     skills,
     count(job_postings_fact.job_id) as demand_count
