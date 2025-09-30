@@ -1,5 +1,5 @@
 
-# 📊 Data Analytics Job Market — SQL Project
+# 📊 Job Market Insights with SQL
 
 ---
 
